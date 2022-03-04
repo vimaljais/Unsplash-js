@@ -1,0 +1,91 @@
+/* unsplash page */
+
+.full-page {
+}
+body {
+  background: url(./background.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.header-container {
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.header {
+  color: cadetblue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 500;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  backdrop-filter: contrast(0.8);
+  cursor: pointer;
+}
+.input {
+  width: 400px !important;
+  display: block;
+  height: 40px;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0.25rem;
+  border: none;
+  backdrop-filter: contrast(0.5);
+}
+
+.search-btn {
+  background-color: cadetblue;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  height: 40px;
+  width: 90px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  margin: 50px;
+}
+
+.display-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.image {
+  width: 500px;
+  height: 400px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.image-desc {
+  color: white;
+  word-wrap: break-word;
+}
+
+.single-container {
+  width: 540px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
